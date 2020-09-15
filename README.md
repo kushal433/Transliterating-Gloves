@@ -43,17 +43,15 @@ difficulty.
   in world. The languages do not have a common origin and hence is difficult to interpret.
 • Our project has been designed to provide solution to these problems. We are converting sign
   language into text and audio form which will help deaf and dumb people to communicate
-  effectively.
+  effectively.	
 • The deaf and dumb person is largely dependent on a family because they get economically and
   emotional support from the family. Our project has been designed to provide solutions to the
   problems faced by the deaf and dumb people in real world.
 
 # Objectives
-• To design and develop a system which lowers the communication gap between speech-hearing
-	impaired and normal world.
+• To design and develop a system which lowers the communication gap between speech-hearing impaired and normal world.
 • Build a glove device to detect sign language.
-• Maximum utilization of space available on the glove so that all the hardware components can
-	fit on it.
+• Maximum utilization of space available on the glove so that all the hardware components can fit on it.
 • Able to recognize and effectively differentiate between different gestures.
 • Device should be as Portable as possible.
 
@@ -64,10 +62,6 @@ unit, together are used to recohnize the finger and palm gestures. A block diagr
 system is as shown below,
 
 ![](proj1.PNG)
-
-
-IMAGE1
-
 
 The Arduino Nano controller is used to reduce the size of the circuit and it also provides the
 required number of input and output pins for the design. Ten flex sensors are used to measure the
@@ -104,36 +98,27 @@ software. Objective 1 is hardware objective, as it relates to the physical, tang
 while Objective 4 is a software objective and is instead focused on the glove’s code development and
 signal processing. Objectives 2 and 3, as they relate to both the hardware andsoftware components,
 can be considered embedded systems objectives.
-
-IMAGE2
+![](proj2.PNG)
 
 # Design
-In this project, we have studied the basic signs that dumb people use to communicate with each
-other. As some of them are not able to talk properly they mostly use signs that are specifically used.
-So, it was necessary for us to first understand the sign language used by them which included various
-alphabets and few signs which they use in their daily life.Gesture which are the key inputs to our
-system, is also studied which gives different output when made different signs depending on the
-angle made by fingers and wrist position.
-We have measured the different bending resistance values for different angles. A table describing
-the same is as below:
-IMAGE 3
+In this project, we have studied the basic signs that dumb people use to communicate with each other. As some of them are not able to talk properly they mostly use signs that are specifically used.
+So, it was necessary for us to first understand the sign language used by them which included various alphabets and few signs which they use in their daily life.Gesture which are the key inputs to our system, is also studied which gives different output when made different signs depending on the angle made by fingers and wrist position.
+We have measured the different bending resistance values for different angles. A table describing the same is as below:
+![](proj3.PNG)
 
 # Results
 We have successfully implemented both hardware and software onto the gloves. An image of the
 gloves is as shown:
-
-IMAGE 4
-
+![](proj4.PNG)
 We have measured the resistance values repeatedly, about 5-6 times and thus we have calculated
 and tabulated the resistance values in range. We have tabulated results for both, single handed gestures
 and also for gestures with two hands. The reason for setting range of resistance values is because
 a single gesture cannot have the same bend or the same angle for each and every person. To ensure
 that the gesture is interpreted properly we have shown the values in a resistance range.
 A table of single handed gestures implemented are as follows:
+![](proj5.PNG)
 
-IMAGE 5
-
-IMAGE 6
+![](proj6.PNG)
 
 # Conclusion
 The project proposes a translational device for deaf-mute people using glove technology. The proposed
