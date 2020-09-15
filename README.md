@@ -66,29 +66,6 @@ nano controller matches the input signal wth the already stored, corresponding t
 message on the smartphone screen via the Bluetooth module. The text to speech converter application
 will convert the corresponding text messages into speech and audio form.
 
-# Methodology
-
-The Language of Glove uses a similar tracking method to the other glove-based systems. Five
-stretchable sensors are attached to the knuckles of a leather athletic glove, one on each finger and
-one on the thumb. These are connected to a Ardiuno Nano board on the wrist, which generates a
-corresponding meaning of the Sign Language based on the position of the fingers and palm.
-The code works off a binary system. The sensors are designed to change their electrical resistance
-when they’re bent or stretched, so when a finger is straight, the device registers a 0 input, while a bent
-finger sends a signal of 1. The system combines these signals from all five sensors to generate a fivedigit
-code, which corresponds with a particular letter. For example, in sign language the letter A is
-made by keeping the thumb straight while bending all fingers, so the code is 01111. To differentiate
-between similar gestures, the glove is also equipped with a gyroscope sensor. The various steps
-involved in the design and making of the project are as below:
-1• Develop a sensing network that incorporates and differentiates the different types of hand
-movement based on flexion, contact, rotation, and lastly translation.
-2• Interface the sensor network with a microcontroller, Arduino Nano.
-3• Design a Printed Circuit Board (PCB) that serves as the bridge between our hardware and
-software components, thereby allowing hand movements and sensor signals to be input to and
-processed by the microcontroller and the software code.
-4• Develop a program that recognizes sensor signals and stores those that correspond to a designated
-sign into a code library.
-
-
 ![](proj2.PNG)
 
 # Design
