@@ -38,22 +38,22 @@ difficulty.
 
 # Problem Statement
 • Communication between deaf-mute and a normal person has always been a challenging task
-which creates very little room for them to communicate effectively.
+  which creates very little room for them to communicate effectively.
 • Sign language is a non-verbal form of intercourse which is found amongst deaf communities
-in world. The languages do not have a common origin and hence is difficult to interpret.
+  in world. The languages do not have a common origin and hence is difficult to interpret.
 • Our project has been designed to provide solution to these problems. We are converting sign
-language into text and audio form which will help deaf and dumb people to communicate
-effectively.
+  language into text and audio form which will help deaf and dumb people to communicate
+  effectively.
 • The deaf and dumb person is largely dependent on a family because they get economically and
-emotional support from the family. Our project has been designed to provide solutions to the
-problems faced by the deaf and dumb people in real world.
+  emotional support from the family. Our project has been designed to provide solutions to the
+  problems faced by the deaf and dumb people in real world.
 
 # Objectives
 • To design and develop a system which lowers the communication gap between speech-hearing
-impaired and normal world.
+	impaired and normal world.
 • Build a glove device to detect sign language.
 • Maximum utilization of space available on the glove so that all the hardware components can
-fit on it.
+	fit on it.
 • Able to recognize and effectively differentiate between different gestures.
 • Device should be as Portable as possible.
 
@@ -62,6 +62,13 @@ Our system consists of 5 flex sensors on each hand and an accelerometer and gyro
 sensors are used to reduce the power and cost. The flex sensors and the accelerometer and gyroscope
 unit, together are used to recohnize the finger and palm gestures. A block diagram of the proposed
 system is as shown below,
-
-
+![](images/img1.png)
+The Arduino Nano controller is used to reduce the size of the circuit and it also provides the
+required number of input and output pins for the design. Ten flex sensors are used to measure the
+angle of bending of fingers. The flex sensors are interfaced with the accelerometer and gyroscope
+unit through the microcontroller. All the signals from the sensors are fed to the Arduino. So for
+every action the motion sensor gets accelerated and gives the signal to the controller. The Arduino
+nano controller matches the input signal wth the already stored, corresponding text and will show the
+message on the smartphone screen via the Bluetooth module. The text to speech converter application
+will convert the corresponding text messages into speech and audio form.
 
