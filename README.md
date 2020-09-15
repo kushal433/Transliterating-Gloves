@@ -98,25 +98,31 @@ software. Objective 1 is hardware objective, as it relates to the physical, tang
 while Objective 4 is a software objective and is instead focused on the glove’s code development and
 signal processing. Objectives 2 and 3, as they relate to both the hardware andsoftware components,
 can be considered embedded systems objectives.
+
 ![](proj2.PNG)
 
 # Design
 In this project, we have studied the basic signs that dumb people use to communicate with each other. As some of them are not able to talk properly they mostly use signs that are specifically used.
 So, it was necessary for us to first understand the sign language used by them which included various alphabets and few signs which they use in their daily life.Gesture which are the key inputs to our system, is also studied which gives different output when made different signs depending on the angle made by fingers and wrist position.
 We have measured the different bending resistance values for different angles. A table describing the same is as below:
+
 ![](proj3.PNG)
 
 # Results
 We have successfully implemented both hardware and software onto the gloves. An image of the
 gloves is as shown:
+
 ![](proj4.PNG)
+
 We have measured the resistance values repeatedly, about 5-6 times and thus we have calculated
 and tabulated the resistance values in range. We have tabulated results for both, single handed gestures
 and also for gestures with two hands. The reason for setting range of resistance values is because
 a single gesture cannot have the same bend or the same angle for each and every person. To ensure
 that the gesture is interpreted properly we have shown the values in a resistance range.
 A table of single handed gestures implemented are as follows:
+
 ![](proj5.PNG)
+
 
 ![](proj6.PNG)
 
