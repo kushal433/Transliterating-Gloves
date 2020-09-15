@@ -37,14 +37,12 @@ output which will enable vocally challenged people to communicate with normal pe
 difficulty.
 
 # Problem Statement
-• Communication between deaf-mute and a normal person has always been a challenging task
-  which creates very little room for them to communicate effectively.
-• Sign language is a non-verbal form of intercourse which is found amongst deaf communities
+  Communication between deaf-mute and a normal person has always been a challenging taskwhich creates very little room for them to communicate effectively.Sign language is a non-verbal form of intercourse which is found amongst deaf communities
   in world. The languages do not have a common origin and hence is difficult to interpret.
-• Our project has been designed to provide solution to these problems. We are converting sign
+Our project has been designed to provide solution to these problems. We are converting sign
   language into text and audio form which will help deaf and dumb people to communicate
   effectively.	
-• The deaf and dumb person is largely dependent on a family because they get economically and
+ The deaf and dumb person is largely dependent on a family because they get economically and
   emotional support from the family. Our project has been designed to provide solutions to the
   problems faced by the deaf and dumb people in real world.
 
