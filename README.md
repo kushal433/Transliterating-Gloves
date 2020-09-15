@@ -62,7 +62,11 @@ Our system consists of 5 flex sensors on each hand and an accelerometer and gyro
 sensors are used to reduce the power and cost. The flex sensors and the accelerometer and gyroscope
 unit, together are used to recohnize the finger and palm gestures. A block diagram of the proposed
 system is as shown below,
+
+
 ![](images/img1.png)
+
+
 The Arduino Nano controller is used to reduce the size of the circuit and it also provides the
 required number of input and output pins for the design. Ten flex sensors are used to measure the
 angle of bending of fingers. The flex sensors are interfaced with the accelerometer and gyroscope
