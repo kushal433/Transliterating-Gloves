@@ -63,7 +63,7 @@ sensors are used to reduce the power and cost. The flex sensors and the accelero
 unit, together are used to recohnize the finger and palm gestures. A block diagram of the proposed
 system is as shown below,
 
-![](proj1.png)
+![](proj1.PNG)
 
 
 IMAGE1
