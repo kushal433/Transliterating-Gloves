@@ -47,11 +47,7 @@ Our project has been designed to provide solution to these problems. We are conv
   problems faced by the deaf and dumb people in real world.
 
 # Objectives
-• To design and develop a system which lowers the communication gap between speech-hearing impaired and normal world.
-• Build a glove device to detect sign language.
-• Maximum utilization of space available on the glove so that all the hardware components can fit on it.
-• Able to recognize and effectively differentiate between different gestures.
-• Device should be as Portable as possible.
+To design and develop a system which lowers the communication gap between speech-hearing impaired and normal world.Build a glove device to detect sign language with maximum utilization of space available on the glove so that all the hardware components can fit on it.It should be able to recognize and effectively differentiate between different gestures and the device should be as Portable as possible.
 
 # Procedure Adopted
 Our system consists of 5 flex sensors on each hand and an accelerometer and gyroscope. These
@@ -83,19 +79,15 @@ code, which corresponds with a particular letter. For example, in sign language 
 made by keeping the thumb straight while bending all fingers, so the code is 01111. To differentiate
 between similar gestures, the glove is also equipped with a gyroscope sensor. The various steps
 involved in the design and making of the project are as below:
-• Develop a sensing network that incorporates and differentiates the different types of hand
+1• Develop a sensing network that incorporates and differentiates the different types of hand
 movement based on flexion, contact, rotation, and lastly translation.
-• Interface the sensor network with a microcontroller, Arduino Nano.
-• Design a Printed Circuit Board (PCB) that serves as the bridge between our hardware and
+2• Interface the sensor network with a microcontroller, Arduino Nano.
+3• Design a Printed Circuit Board (PCB) that serves as the bridge between our hardware and
 software components, thereby allowing hand movements and sensor signals to be input to and
 processed by the microcontroller and the software code.
-• Develop a program that recognizes sensor signals and stores those that correspond to a designated
+4• Develop a program that recognizes sensor signals and stores those that correspond to a designated
 sign into a code library.
-It should be noted that the objectives can be categorized into two main categories, hardware and
-software. Objective 1 is hardware objective, as it relates to the physical, tangible parts of the glove,
-while Objective 4 is a software objective and is instead focused on the glove’s code development and
-signal processing. Objectives 2 and 3, as they relate to both the hardware andsoftware components,
-can be considered embedded systems objectives.
+
 
 ![](proj2.PNG)
 
